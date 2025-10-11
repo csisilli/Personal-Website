@@ -1,7 +1,7 @@
 .about__container {
     display: grid;
     grid-template-columns: 35% 50%;
-    gap: 15%;
+    gap: 10%;
 }
 .about__me {
     width: 100%;
@@ -58,8 +58,17 @@
     color: var(--color-light);
 }
 .about__content p{
-    margin: 2rem 0 2.6rem;
+    margin: 1.8rem 0;
     color: var(--color-light);
+    font-size: 1.1rem;
+    line-height: 1.8;
+    max-width: 95%;
+    transition: var(--transition);
+}
+
+.about__content p:hover {
+    color: var(--color-white);
+    transform: translateX(8px);
 }
 /*  =========Media Information Medium Devices======== */
 @media screen and (max-width: 1024px){
