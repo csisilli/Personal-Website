@@ -54,15 +54,6 @@ personal-website/
 └── README.md
 ```
 
-## Contact
-
-Replace the placeholder below with your preferred contact method.
-
-- Name: Caitlin
-- Email: your.email@example.com
-- LinkedIn / GitHub: @your-username
-
-
 ## Notes & next steps
 
 - Add more projects and update descriptions.
