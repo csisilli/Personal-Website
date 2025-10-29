@@ -22,12 +22,12 @@ const App = () => {
               This site is currently under construction. Check back soon!
             </p>
           </div>
-          <div className="spline-container">
-            {/* 3D Spline Scene */}
-            <Spline 
-              scene="https://prod.spline.design/gyWVsQ9taRKBzKZO/scene.splinecode"
-            />
-          </div>
+            <div className="spline-container">
+              {/* 3D Spline Scene */}
+              <Spline 
+                scene="https://prod.spline.design/gyWVsQ9taRKBzKZO/scene.splinecode"
+              />
+            </div>
 
         </header>
       </div>
