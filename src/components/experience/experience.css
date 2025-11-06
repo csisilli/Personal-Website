@@ -1,6 +1,4 @@
 #experience {
-  margin-top: 3.5rem;
-  padding-top: 3.5rem;
   text-align: center;
 }
 
@@ -60,17 +58,21 @@
 
 /* Phone */
 @media screen and (max-width: 600px) {
+  #experience {
+    position: relative;
+  }
   .experience__container {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 3rem;
     width: 100%;
-    padding: 0 1rem 2.5rem;
+    padding: 0 1rem;
   }
 
   .experience__container > div {
     width: 100%;
-    padding: 1.5rem 1rem;
+    padding: 2rem 1.5rem;
+    margin-bottom: 2rem;
   }
 
   .experience__content {
@@ -80,5 +82,19 @@
 
   .experience__container > div h3 {
     font-size: 1.2rem;
+  }
+}
+
+/* iPhone and Very Small Devices */
+@media screen and (max-width: 380px) {
+  .experience__container {
+    padding: 1rem;
+    gap: 2rem;
+  }
+  .experience__container > div {
+    padding: 1.2rem 0.8rem;
+  }
+  .experience__content {
+    gap: 1.2rem;
   }
 }

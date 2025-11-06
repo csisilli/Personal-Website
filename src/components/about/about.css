@@ -72,10 +72,10 @@
 }
 /*  =========Media Information Medium Devices======== */
 @media screen and (max-width: 1024px){
+
     .about__container{
         grid-template-columns: 1fr;
         gap: 0;
-
     }
     .about__me{
         width: 50%;
@@ -88,12 +88,12 @@
 /*  =========Media Information Small Devices======== */
 @media screen and (max-width: 600px){
     #about {
-        margin-bottom: 3.5rem;
+        position: relative;
     }
     .about__container {
         display: flex;
         flex-direction: column;
-        gap: 2.5rem;
+        gap: 3rem;
         padding: 0 1rem;
     }
     .about__me{
@@ -118,3 +118,16 @@
     }
 }
 
+/* iPhone and Very Small Devices */
+@media screen and (max-width: 380px) {
+    .about__container {
+        padding: 1rem;
+        gap: 2rem;
+    }
+    .about__cards {
+        gap: 1.2rem;
+    }
+    .about__card {
+        padding: 1.5rem;
+    }
+}

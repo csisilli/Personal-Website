@@ -1,4 +1,6 @@
 /* ======== CONTACT SECTION ======== */
+#contact {
+}
 
 .container.contact__container {
   width: 58%;
@@ -125,11 +127,14 @@ textarea:focus {
 
 /* ======== MOBILE DEVICES ======== */
 @media screen and (max-width: 600px) {
+  #contact {
+    position: relative;
+  }
   .container.contact__container {
     width: 95%;
     grid-template-columns: 1fr;
-    gap: 2.5rem;
-    padding: 0 1rem 3rem 1rem;
+    gap: 3rem;
+    padding: 0 1rem;
   }
 
   .contact__options {
@@ -151,5 +156,22 @@ textarea:focus {
   button.btn {
     margin-top: 1rem;
     width: 100%;
+  }
+}
+
+/* iPhone and Very Small Devices */
+@media screen and (max-width: 380px) {
+  .container.contact__container {
+    padding: 1rem;
+    gap: 2rem;
+  }
+  .contact__options {
+    gap: 1.2rem;
+  }
+  .contact__option {
+    padding: 1rem;
+  }
+  form {
+    gap: 1rem;
   }
 }
