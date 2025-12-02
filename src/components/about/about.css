@@ -65,10 +65,11 @@
     margin-bottom: 1rem;
 }
 .about__card h5{
-    font-size: 0.95rem;
+    font-size: 1.05rem;
+    font-weight: 600;
 }
 .about__card small{
-    font-size: 0.7rem;
+    font-size: 0.85rem;
     color: var(--color-light);
 }
 .about__content p{

@@ -3,6 +3,7 @@ import "./about.css";
 import ME from "../../assets/me-about.jpg";
 import { FaAward } from "react-icons/fa";
 import { RiFolderZipLine } from "react-icons/ri";
+import { TbCertificate } from "react-icons/tb";
 const About = () => {
   return (
     <section id="about">
@@ -20,19 +21,19 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__card-icon" />
               <h5>Experience</h5>
-              <small>1+ Years Working</small>
+              <medium>1+ Years Working</medium>
             </article>
 
             <article className="about__card">
               <RiFolderZipLine className="about__card-icon" />
               <h5>Projects</h5>
-              <small>8+ Completed</small>
+              <medium>8+ Completed</medium>
             </article>
 
             <article className="about__card">
-              <FaAward className="about__card-icon" />
-              <h5>Experience</h5>
-              <small>1+ Years Working</small>
+              <TbCertificate className="about__card-icon" />
+              <h5>Certifications</h5>
+              <medium>3+ Certifications</medium>
             </article>
           </div>
 

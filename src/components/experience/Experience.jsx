@@ -14,7 +14,7 @@ export const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
+                <medium className="text-light">Experienced</medium>
               </div>
             </article>
 
@@ -22,7 +22,7 @@ export const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>CSS</h4>
-                <small className="text-light">Experienced</small>
+                <medium className="text-light">Experienced</medium>
               </div>
             </article>
 
@@ -30,7 +30,7 @@ export const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>React</h4>
-                <small className="text-light">Basic</small>
+                <medium className="text-light">Experienced</medium>
               </div>
             </article>
 
@@ -38,7 +38,7 @@ export const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>JavaScript</h4>
-                <small className="text-light">Basic</small>
+                <medium className="text-light">Basic</medium>
               </div>
             </article>
 
@@ -46,7 +46,7 @@ export const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Blank</h4>
-                <small className="text-light">Unknown</small>
+                <medium className="text-light">Unknown</medium>
               </div>
             </article>
           </div>
@@ -59,7 +59,7 @@ export const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
+                <medium className="text-light">Experienced</medium>
               </div>
             </article>
 
@@ -67,7 +67,7 @@ export const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>CSS</h4>
-                <small className="text-light">Experienced</small>
+                <medium className="text-light">Experienced</medium>
               </div>
             </article>
 
@@ -75,7 +75,7 @@ export const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>React</h4>
-                <small className="text-light">Basic</small>
+                <medium className="text-light">Experienced</medium>
               </div>
             </article>
 
@@ -83,7 +83,7 @@ export const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>JavaScript</h4>
-                <small className="text-light">Basic</small>
+                <medium className="text-light">Basic</medium>
               </div>
             </article>
 
@@ -91,7 +91,7 @@ export const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Blank</h4>
-                <small className="text-light">Unknown</small>
+                <medium className="text-light">Unknown</medium>
               </div>
             </article>
           </div>
@@ -104,7 +104,7 @@ export const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Python</h4>
-                <small className="text-light">Intermediate</small>
+                <medium className="text-light">Intermediate</medium>
               </div>
             </article>
 
@@ -112,7 +112,7 @@ export const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Java</h4>
-                <small className="text-light">Experienced</small>
+                <medium className="text-light">Experienced</medium>
               </div>
             </article>
 
@@ -120,7 +120,7 @@ export const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>C++</h4>
-                <small className="text-light">Experienced</small>
+                <medium className="text-light">Experienced</medium>
               </div>
             </article>
 
@@ -128,7 +128,7 @@ export const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Ruby</h4>
-                <small className="text-light">Basic</small>
+                <medium className="text-light">Basic</medium>
               </div>
             </article>
 
@@ -136,7 +136,7 @@ export const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>C#</h4>
-                <small className="text-light">Intermediate</small>
+                <medium className="text-light">Intermediate</medium>
               </div>
             </article>
             {/* End of the Backend Code */}
