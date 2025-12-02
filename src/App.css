@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-  min-height: 100vh;
+  /* remove forced full-viewport height to avoid extra bottom space */
+  min-height: auto;
   display: flex;
   flex-direction: column;
 }
@@ -8,15 +9,19 @@
 /* HEADER STYLING */
 .App-header {
   background: var(--color-bg);
-  min-height: 65vh;
+  min-height: 50vh;
   display: grid;
   grid-template-rows: auto 1fr;
   align-items: start;
   color: var(--color-white);
   position: relative;
   overflow: hidden;
-  padding: 2rem;
-  gap: 2rem;
+  /* Add 1rem top/bottom spacing requested while keeping existing paddings */
+  padding-top: calc(1.25rem + 1rem);
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+  padding-bottom: calc(2rem + 1rem);
+  gap: 0.75rem;
 }
 
 .header-content {
@@ -26,10 +31,12 @@
   margin: 0 auto;
   text-align: center;
   position: relative;
+  padding-top: 1.25rem;
+  padding-bottom: 0.25rem;
 }
 
 .header-content h1 {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   color: var(--color-primary);
   font-size: 2.5rem;
 }
@@ -37,7 +44,7 @@
 .header-content p {
   color: var(--color-light);
   font-size: 1.2rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 /* SPLINE CONTAINER */
@@ -67,17 +74,22 @@
 /* === HEADER MEDIA FIXES === */
 @media screen and (max-width: 900px) {
   .App-header {
-    gap: 1.5rem;
-    padding: 1.5rem;
+    gap: 1.25rem;
+  /* Tablet: include extra 1rem top/bottom */
+  padding-top: calc(1.5rem + 1rem);
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  padding-bottom: calc(2.5rem + 1rem);
   }
   
   .header-content h1 {
     font-size: 2rem;
+    margin-bottom: 0.5rem;
   }
 
   .header-content p {
     font-size: 1rem;
-    margin-bottom: 0;
+    margin-bottom: 0.25rem;
   }
 
   .spline-container {
@@ -89,8 +101,12 @@
 
 @media screen and (max-width: 600px) {
   .App-header {
-    gap: 1rem;
-    padding: 1rem;
+    gap: 0.5rem;
+  /* Mobile: include extra 1rem top/bottom */
+  padding-top: calc(0.75rem + 1rem);
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  padding-bottom: calc(1.5rem + 1rem);
   }
 
   .header-content h1 {

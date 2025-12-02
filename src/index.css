@@ -13,8 +13,9 @@
 :root {
     --color-bg: #1f1f38;
     --color-bg-variant: #2c2c6c;
-    --color-primary: #4db5ff;
-    --color-primary-variant: rgba(77,181,255,0.4);
+    /* primary color changed to a lighter purple */
+    --color-primary: #b99bff; /* lighter purple */
+    --color-primary-variant: rgba(185,155,255,0.35); /* semi-transparent lighter purple */
     --color-white: #fff;
     --color-light: rgba(255,255,255,0.6);
 
@@ -54,10 +55,13 @@ h1{
     font-size:  2.5rem;
 }
 
+/* Sections: remove forced top/bottom spacing by default so content flows naturally.
+   Add modest responsive padding below using media queries. */
 section{
-    margin-top: 8rem;
-    min-height: 100vh;
-    padding: 4rem 0;
+    margin: 0;
+    /* base 1rem top/bottom spacing requested */
+    padding: 1rem 0;
+    min-height: auto;
 }
 
 section > h2, section >h5{
@@ -114,8 +118,10 @@ img{
 .container {
     width: var(--container-width-md);
 }
+/* Tablet: add some vertical padding so sections breathe (includes +1rem) */
 section{
-    margin-top: 6rem;
+    padding: calc(2.5rem + 1rem) 0;
+    min-height: auto;
 }
 }
 /*  =========Media Information Small Devices ======== */
@@ -123,11 +129,20 @@ section{
     .container {
         width: var(--container-width-sm);
     }
+    /* Mobile: small padding only (includes +1rem) */
     section {
-        margin-top: 4rem;
-        padding: 4rem 0;
+        padding: calc(1.5rem + 1rem) 0;
     }
     section > h2{
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
+}
+
+/* Large screens: a bit more vertical padding for visual balance */
+@media screen and (min-width: 1025px){
+    /* Desktop: tighter vertical spacing (includes +1rem) */
+    section{
+        padding: calc(2rem + 1rem) 0;
+        min-height: auto;
     }
+}
