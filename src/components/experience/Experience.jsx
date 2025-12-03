@@ -201,7 +201,7 @@ export const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Java</h4>
-                <medium className="text-light">Experienced</medium>
+                <medium className="text-light">Intermediate</medium>
               </div>
             </article>
 
@@ -209,7 +209,7 @@ export const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>C++</h4>
-                <medium className="text-light">Experienced</medium>
+                <medium className="text-light">Intermediate</medium>
               </div>
             </article>
 
