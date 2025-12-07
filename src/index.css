@@ -68,6 +68,9 @@ section > h2, section >h5{
     text-align: center;
     color:var(--color-light);
 }
+section > h5{
+    font-size: 1.8rem;
+}
 section > h2{
     color: var(--color-primary);
     margin-bottom: 3rem;
@@ -107,6 +110,13 @@ a:hover{
     color:var(--color-bg);
 
 }
+
+.cta {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
 img{
     display: block;
     width: 100%;
