@@ -13,14 +13,14 @@ const Contact = () => {
           <article className="contact__option">
             <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
-            <h5>caitlinsisilli@gmail.com</h5>
+            <h4>caitlinsisilli@gmail.com</h4>
             <a href="mailto:caitlinsisilli@gmail.com" target="_blank" rel="noopener noreferrer">Send a Message</a>
           </article>
 
           <article className="contact__option">
             <SiMessenger className='contact__option-icon'/>
             <h4>Messenger</h4>
-            <h5>Linkdln</h5>
+            <h4>Linkdln</h4>
             <a href="https://www.linkedin.com/in/csisilli/" target="_blank" rel="noopener noreferrer">Send a Message</a>
           </article>
 
