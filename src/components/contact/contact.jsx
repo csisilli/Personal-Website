@@ -27,10 +27,13 @@ const Contact = () => {
         </div>
         {/*END OF CONTACT OPTIONS */}
         <form action="">
-          <input type="text" name ='name' placeholder='Your Full Name' required/>
-          <input type="email" name='email' placeholder='Your Email' required/>
-          <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
-          <button type='submit' className='btn btn-primary'>Send Message</button>
+          <label htmlFor="name" className="sr-only">Your Full Name</label>
+          <input type="text" id="name" name='name' placeholder='Your Full Name' required aria-label="Your Full Name"/>
+          <label htmlFor="email" className="sr-only">Your Email</label>
+          <input type="email" id="email" name='email' placeholder='Your Email' required aria-label="Your Email"/>
+          <label htmlFor="message" className="sr-only">Your Message</label>
+          <textarea id="message" name="message" rows="7" placeholder='Your Message' required aria-label="Your Message"></textarea>
+          <button type='submit' className='btn btn-primary' aria-label="Send Message">Send Message</button>
         </form>
       </div>
     </section>

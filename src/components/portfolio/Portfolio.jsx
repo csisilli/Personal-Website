@@ -16,32 +16,32 @@ export const Portfolio = () => {
         {/**/ }
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
-            <img src={IMG1} alt=" "/>
+            <img src={IMG1} alt="Assembler VC-407 project screenshot - C++ assembler implementation"/>
           </div>
           <h3>Assembler VC-407 (C++)</h3>
           <div className="portfolio__items-cta">
-          <a href="https://github.com/csisilli/Assembler" className='btn' target='blank' >GitHub</a>
+          <a href="https://github.com/csisilli/Assembler" className='btn' target='blank' aria-label="View Assembler VC-407 project on GitHub" >GitHub</a>
           </div>
         </article>
         {/*End of Portfolio Project 1*/ }
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
-            <img src={IMG2} alt=" "/>
+            <img src={IMG2} alt="Weather API project screenshot - Kotlin and Java weather application"/>
           </div>
           <h3>Weather API (Kotlin Java)</h3>
           <div className="portfolio__items-cta">
-          <a href="https://github.com/csisilli/Projects" className='btn' target='blank' >GitHub</a>
+          <a href="https://github.com/csisilli/Projects" className='btn' target='blank' aria-label="View Weather API project on GitHub" >GitHub</a>
           </div>
         </article>
         {/*End of Portfolio Project 2*/ }
 
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
-            <img src={IMG3} alt=" "/>
+            <img src={IMG3} alt="Photography Portfolio project screenshot - HTML and CSS photography website"/>
           </div>
           <h3>Photography-Portfolio (HTML/CSS)</h3>
           <div className="portfolio__items-cta">
-          <a href="https://github.com/csisilli/Projects" className='btn' target='blank' >GitHub</a>
+          <a href="https://github.com/csisilli/Projects" className='btn' target='blank' aria-label="View Photography Portfolio project on GitHub" >GitHub</a>
           </div>
         </article>
         {/*End of Portfolio Project 3*/ }
@@ -60,12 +60,12 @@ export const Portfolio = () => {
 
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
-            <img src={IMG5} alt=" "/>
+            <img src={IMG5} alt="Coin Game Website project screenshot - JavaScript, HTML and CSS coin collector game"/>
           </div>
           <h3>Coin Game Website (Javacript, HTMl, and CSS)</h3>
           <div className="portfolio__items-cta">
-          <a href="https://github.com/csisilli/CoinCollectorGames" className='btn' target='blank' >GitHub</a>
-          <a href="demo" className='btn btn-primary' target='blank'>Live Demo</a>
+          <a href="https://github.com/csisilli/CoinCollectorGames" className='btn' target='blank' aria-label="View Coin Game Website project on GitHub" >GitHub</a>
+          <a href="demo" className='btn btn-primary' target='blank' aria-label="Play Coin Game Website live demo" >Live Demo</a>
           </div>
         </article>
         {/*End of Portfolio Project 5*/ }

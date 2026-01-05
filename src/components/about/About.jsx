@@ -57,7 +57,7 @@ const About = () => {
             continuous learning and creative problem-solving. Let's build
             something amazing together.
           </p>
-          <a href="#contact" className="btn btn-primary">
+          <a href="#contact" className="btn btn-primary" aria-label="Navigate to contact me section to get in touch">
             Let's Talk
           </a>
         </div>

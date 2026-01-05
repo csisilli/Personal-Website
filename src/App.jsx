@@ -11,6 +11,7 @@ import CTA from './CTA'
 const App = () => {
   return (
     <>
+      <a href="#main-content" className="sr-only">Skip to main content</a>
       <div className="App">
         <header className="App-header">
           <div className="header-content">
@@ -26,10 +27,12 @@ const App = () => {
 
         </header>
       </div>
-      <About />
-      <Experience /> 
-      <Portfolio />
-      <Contact />
+      <main id="main-content">
+        <About />
+        <Experience /> 
+        <Portfolio />
+        <Contact />
+      </main>
       <Footer /> 
     </>
   );
