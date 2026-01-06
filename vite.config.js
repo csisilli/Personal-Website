@@ -6,6 +6,10 @@ export default defineConfig({
   plugins: [react()],
   root: 'public',
   base: '/csisilli-personal-webpage/',
+  build: {
+    outDir: '../dist',
+    emptyOutDir: true
+  },
   resolve: {
     extensions: ['.js', '.jsx', '.json']
   },
