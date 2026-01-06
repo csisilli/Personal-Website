@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   root: 'public',
-  base: '/',
+  base: '/csisillli-personal-webpage/',
   resolve: {
     extensions: ['.js', '.jsx', '.json']
   },
